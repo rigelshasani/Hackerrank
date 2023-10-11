@@ -26,3 +26,23 @@ if __name__ == '__main__':
                 return
         
     second(arr)
+
+# Unfinished
+# if __name__ == '__main__':
+#     n = int(input())
+#     arr = map(int, input().split())
+    
+#     def second(arr):
+#         array = []
+#         for i in arr:
+#             array.append(i)
+#         newArray = sorted(array)
+#         print(newArray)
+#         for i in range(len(newArray)-1, 0, -1):
+#             #print(newArray[i])
+#             if(newArray[i] == newArray[i-1]):
+#                 print("Equal: " + str(i))
+#             else:
+#                 print(i)
+        
+#     second(arr)

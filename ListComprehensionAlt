@@ -1,11 +1,11 @@
-List Comprehension Alternative Solution
----------------------------------------------------------------------------------------------
-list = [[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if(i+j+k != n)]
-    print(list)
----------------------------------------------------------------------------------------------
-two lines..i did it in like 20 in my OC solution.
+# List Comprehension Alternative Solution
+# ---------------------------------------------------------------------------------------------
+# list = [[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if(i+j+k != n)]
+#     print(list)
+# ---------------------------------------------------------------------------------------------
+# two lines..i did it in like 20 in my OC solution.
 
--------------------------------
+#-------------------------------
 if __name__ == '__main__':
     x = int(input())
     y = int(input())
@@ -36,4 +36,4 @@ if __name__ == '__main__':
         list.append(group)
         
     print(list)
--------------------------------
+#-------------------------------
